@@ -1,0 +1,66 @@
+html,body{
+height:100%;
+}
+
+
+body{
+margin:0px;
+padding:0px;
+height:100%;
+}
+
+section{
+    
+margin:0px;
+padding:0px;
+height:100%;
+    
+}
+    
+#masthead{
+opacity: 0;
+height:100%;
+margin: 0px;
+padding: 0px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#417db0+0,be797d+100 */
+background: #417db0; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #417db0 0%, #be797d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #417db0 0%,#be797d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #417db0 0%,#be797d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#417db0', endColorstr='#be797d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+position:relative;
+
+}
+
+.masthead-banner{
+opacity: 0;
+background-image: url(img/banner.jpg);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+height: 100%;
+}
+
+
+#masthead h1{
+font-family: BodoniSvtyTwoITCTT-Book;
+font-size: 56px;
+color: #FFFFFF;
+letter-spacing: 0.33px;
+line-height: 58px;
+text-align: center;
+margin-bottom: 40px;
+opacity: 0;
+}
+
+.masthead-intro {
+    
+    position: absolute;
+    top:300px;
+    
+}
+
+.masthead-intro button{
+    
+    opacity: 0;
+}
